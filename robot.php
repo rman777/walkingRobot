@@ -59,5 +59,5 @@
   
 }
 
-print_r( walking_robot( 5, 2, 'SOUTH', 'RW2LW4R') );
+//print_r( walking_robot( 5, 2, 'SOUTH', 'RW2LW4R') );
 ?>
