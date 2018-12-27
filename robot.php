@@ -1,5 +1,18 @@
 <?php
 
+
+if(isset($argv))
+{
+    $x = $argv[1];
+    $y = $argv[2];
+    $d = $argv[3];
+    $dir = $argv[4];
+
+    print_r(walking_robot($x, $y, $d, $dir));
+}
+
+
+
    function walking_robot($x, $y, $d, $dir) {
 
 	$stringArray = str_split($dir);
@@ -59,5 +72,7 @@
   
 }
 
-//print_r( walking_robot( 5, 2, 'SOUTH', 'RW2LW4R') );
+ 
+
+
 ?>
